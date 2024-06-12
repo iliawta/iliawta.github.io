@@ -1,0 +1,227 @@
+body {
+  margin: 0;
+  color: #fff;
+  background: #161616;
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+section {
+  padding: 2.5em;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav {
+  padding: 1.5em 2.5em;
+  position: relative;
+}
+
+.brand {
+  font-size: 1.3em;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 0.8em;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+}
+
+nav a:hover {
+  color: #eee;
+}
+
+header {
+  height: 100vh;
+  min-height: 30em;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-body {
+  padding-top: 5em;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+
+.header-body h1 {
+  font-size: 60px;
+}
+
+.header-body p {
+  max-width: 30em;
+  font-size: 25px;
+}
+
+.header-body img {
+  width: 200px;
+}
+
+.about-company {
+  min-height: 30em;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-header {
+  padding: 2.5em;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.about-header {
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.about-header h1 {
+  font-size: 120px;
+}
+
+.about-body {
+  width: calc(100vw - 80px);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  margin-left: 61px;
+}
+
+.about-body p {
+  max-width: 30em;
+  font-size: 25px;
+}
+
+.about-body p span {
+  box-sizing: border-box;
+  padding: 0 30px;
+  font-weight: 800;
+  font-size: 40px;
+}
+
+.about-body img {
+  width: 600px;
+  border-radius: 30px;
+}
+
+.swot {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.swot-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swot-header h1 {
+  font-size: 50px;
+}
+
+.swot-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swot-body table {
+  margin-left: 90px;
+}
+
+.swot-body table tr th {
+  font-size: 35px;
+  padding: 25px;
+}
+
+.swot-body table tr td {
+  font-size: 20px;
+  padding-bottom: 25px;
+}
+
+.survey {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.survey-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.survey-header h1 {
+  font-size: 50px;
+}
+
+.survey-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.survey-detail {
+    display: flex;
+}
+
+.survey-detail p {
+  max-width: 30em;
+  font-size: 25px;
+}
+
+.survey-body img {
+    margin-top: 30px;
+    border-radius: 25px;
+}
+
+.survey-body ul li {
+  font-size: 20px;
+  list-style-type: disc;
+}
+
+.fa-solid {
+  color: white;
+  font-size: 100px;
+  margin-right: 25px;
+}

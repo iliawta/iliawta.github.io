@@ -8,7 +8,10 @@
 .container {
   width: 100%;
   min-height: 100vh;
-  background: #3c444c;
+  /* background: #3c444c; */
+  background: url(../images/banner4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -22,7 +25,8 @@
 
 .gallery {
   flex-basis: 47%;
-  background: #241e20;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(5px);
   transform: scale(1.08);
   box-shadow: -10px 5px 10px 10px rgba(0, 0, 0, 0.1);
   border-radius: 15px;

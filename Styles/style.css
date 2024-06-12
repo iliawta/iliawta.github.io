@@ -373,6 +373,12 @@ img {
   font-size: larger;
 }
 
+.fa-solid {
+  color: white;
+  font-size: 80px;
+  margin-right: 25px;
+}
+
 @keyframes glow {
   0% {
     box-shadow: none;
